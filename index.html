@@ -1,110 +1,1673 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cn" lang="cn">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The backrooms SX分网站</title>
-  <style>
-    body {
-      margin: 0;
+    <title>主页 - The Backrooms中文维基</title>
+    
+    
+    
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--javascript/init.combined.js"></script>
+    <script  type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--291054f06006';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "backrooms-wiki-cn.wikidot.com";
+        WIKIREQUEST.info.siteId = 4716348;
+        WIKIREQUEST.info.siteUnixName = "backrooms-wiki-cn";
+        WIKIREQUEST.info.categoryId = 40786773;
+        WIKIREQUEST.info.themeId = 1;
+        WIKIREQUEST.info.requestPageName = "start";
+        OZONE.request.timestamp = 1676106767;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'cn';
+                WIKIREQUEST.info.pageUnixName = "start";
+        WIKIREQUEST.info.pageId = 1312481462;
+                        WIKIREQUEST.info.lang = "cn";
+        OZONE.lang = "cn";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script  type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="cn"/>
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--javascript/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css" id="internal-style">
+        
+        /* modules */
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--theme/base/css/style.css);
+                    @import url(https://fastly.jsdelivr.net/gh/arandintday/thebackhubscn@main/liminal.css);
+            </style>
+    
+        
+        
+        
+    <link rel="shortcut icon" href="/local--favicon/favicon.gif"/>
+    <link rel="icon" type="image/gif" href="/local--favicon/favicon.gif"/>
+    
+            <link rel="apple-touch-icon" href="/common--images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/common--images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/common--images/apple-touch-icon-114x114.png" />
+        
+        
+            <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript:WIKIDOT.page.listeners.editClick()"/>
+    
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+            </script>
+    
+    <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script>
+    
+        <link rel="manifest" href="/onesignal/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" acync=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: null,
+          });
+        });
+    </script>
+        
+<style>
+:root {
+    --base-roll-time: 0.5s;
+    --base-wait-time: 5s;
+    --img-2-time: calc(2 * (var(--base-roll-time) + var(--base-wait-time)));
+    --img-3-time: calc(3 * (var(--base-roll-time) + var(--base-wait-time)));
+    --img-4-time: calc(4 * (var(--base-roll-time) + var(--base-wait-time)));
+    --img-5-time: calc(5 * (var(--base-roll-time) + var(--base-wait-time)));
+    --img-6-time: calc(6 * (var(--base-roll-time) + var(--base-wait-time)));
+}
+
+.carousel-container {
+    overflow-y: hidden;
+}
+
+.carousel-container .rolling {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.carousel-container .rolling br {
+    display: none;
+}
+.carousel-container .rolling a:nth-of-type(1) {
+    width: 100%;
+    position: relative;
+}
+.carousel-container .rolling a:not(a:nth-of-type(1)) {
+    position: absolute;
+    left: 100%;
+    width: 100%;
+}
+
+.carousel-container .rolling.img-2 a:nth-of-type(1) {
+    animation: rolling2-1 var(--img-2-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-2 a:nth-of-type(2) {
+    animation: rolling2-2 var(--img-2-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes rolling2-1 {
+    0% {left: 0;}           /* 0s */
+    4.54% {left: -100%;}    /* 0.5s */
+    49.99% {left: -100%;}
+    50% {left: 100%;}       /* 5.5s */
+    54.54% {left: 0;}       /* 6s */
+    100% {left: 0;}         /* 11s */
+}
+@keyframes rolling2-2 {
+    0% {left: 100%;}        /* 0s */
+    4.54% {left: 0;}        /* 0.5s */
+    50% {left: 0;}          /* 5.5s */
+    54.54% {left: -100%;}   /* 6s */
+    99.99% {left: -100%;}
+    100% {left: 100%;}      /* 11s */
+}
+
+.carousel-container .rolling.img-3 a:nth-of-type(1) {
+    animation: rolling3-1 var(--img-3-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-3 a:nth-of-type(2) {
+    animation: rolling3-2 var(--img-3-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-3 a:nth-of-type(3) {
+    animation: rolling3-3 var(--img-3-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes rolling3-1 {
+    0% {left: 0;}           /* 0s */
+    3.03% {left: -100%;}    /* 0.5s */
+    66.65% {left: -100%;}   
+    66.66% {left: 100%;}    /* 11s */
+    69.69% {left: 0;}       /* 11.5s */
+    100% {left: 0;}         /* 16.5s */
+}
+@keyframes rolling3-2 {
+    0% {left: 100%;}        /* 0s */
+    3.03% {left: 0;}        /* 0.5s */
+    33.33% {left: 0;}       /* 5.5s */
+    36.36% {left: -100%;}   /* 6s */
+    99.99% {left: -100%;}
+    100% {left: 100%;}      /* 16.5s */
+}
+@keyframes rolling3-3 {
+    0% {left: 100%;}        /* 0s */
+    33.33% {left: 100%;}    /* 5.5s */
+    36.36% {left: 0;}       /* 6s */
+    66.66% {left: 0;}       /* 11s */
+    69.69% {left: -100%;}   /* 11.5s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 16.5s */
+}
+
+.carousel-container .rolling.img-4 a:nth-of-type(1) {
+    animation: rolling4-1 var(--img-4-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-4 a:nth-of-type(2) {
+    animation: rolling4-2 var(--img-4-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-4 a:nth-of-type(3) {
+    animation: rolling4-3 var(--img-4-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-4 a:nth-of-type(4) {
+    animation: rolling4-4 var(--img-4-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes rolling4-1 {
+    0% {left: 0;}           /* 0s */
+    2.27% {left: -100%;}    /* 0.5s */
+    74.99% {left: -100%;}   
+    75% {left: 100%;}       /* 17s */
+    77.27% {left: 0;}       /* 17.5s */
+    100% {left: 0;}         /* 22s */
+}
+@keyframes rolling4-2 {
+    0% {left: 100%;}        /* 0s */
+    2.27% {left: 0;}        /* 0.5s */
+    25% {left: 0;}          /* 5.5s */
+    27.27% {left: -100%;}   /* 6s */
+    99.99% {left: -100%;}
+    100% {left: 100%;}      /* 22s */
+}
+@keyframes rolling4-3 {
+    0% {left: 100%;}        /* 0s */
+    25% {left: 100%;}       /* 5.5s */
+    27.27% {left: 0;}       /* 6s */
+    50% {left: 0;}          /* 11s */
+    52.27% {left: -100%;}   /* 11.5s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 22s */
+}
+@keyframes rolling4-4 {
+    0% {left: 100%;}        /* 0s */
+    50% {left: 100%;}       /* 11s */
+    52.27% {left: 0;}       /* 11.5s */
+    75% {left: 0;}          /* 16.5s */
+    77.27% {left: -100%;}   /* 17s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 22s */
+}
+
+.carousel-container .rolling.img-5 a:nth-of-type(1) {
+    animation: rolling5-1 var(--img-5-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-5 a:nth-of-type(2) {
+    animation: rolling5-2 var(--img-5-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-5 a:nth-of-type(3) {
+    animation: rolling5-3 var(--img-5-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-5 a:nth-of-type(4) {
+    animation: rolling5-4 var(--img-5-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-5 a:nth-of-type(5) {
+    animation: rolling5-5 var(--img-5-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes rolling5-1 {
+    0% {left: 0;}           /* 0s */
+    1.82% {left: -100%;}    /* 0.5s */
+    79.99% {left: -100%;}   
+    80% {left: 100%;}       /* 22s */
+    81.82% {left: 0;}       /* 22.5s */
+    100% {left: 0;}         /* 27.5s */
+}
+@keyframes rolling5-2 {
+    0% {left: 100%;}        /* 0s */
+    1.82% {left: 0;}        /* 0.5s */
+    20% {left: 0;}          /* 5.5s */
+    21.82% {left: -100%;}   /* 6s */
+    99.99% {left: -100%;}
+    100% {left: 100%;}      /* 27.5s */
+}
+@keyframes rolling5-3 {
+    0% {left: 100%;}        /* 0s */
+    20% {left: 100%;}       /* 5.5s */
+    21.82% {left: 0;}       /* 6s */
+    40% {left: 0;}          /* 11s */
+    41.82% {left: -100%;}   /* 11.5s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 27.5s */
+}
+@keyframes rolling5-4 {
+    0% {left: 100%;}        /* 0s */
+    40% {left: 100%;}       /* 11s */
+    41.82% {left: 0;}       /* 11.5s */
+    60% {left: 0;}          /* 16.5s */
+    61.82% {left: -100%;}   /* 17s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 27.5s */
+}
+@keyframes rolling5-5 {
+    0% {left: 100%;}        /* 0s */
+    60% {left: 100%;}       /* 16.5s */
+    61.82% {left: 0;}       /* 17s */
+    80% {left: 0;}          /* 22s */
+    81.82% {left: -100%;}   /* 22.5s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 27.5s */
+}
+
+.carousel-container .rolling.img-6 a:nth-of-type(1) {
+    animation: rolling6-1 var(--img-6-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-6 a:nth-of-type(2) {
+    animation: rolling6-2 var(--img-6-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-6 a:nth-of-type(3) {
+    animation: rolling6-3 var(--img-6-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-6 a:nth-of-type(4) {
+    animation: rolling6-4 var(--img-6-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-6 a:nth-of-type(5) {
+    animation: rolling6-5 var(--img-6-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.carousel-container .rolling.img-6 a:nth-of-type(5) {
+    animation: rolling6-6 var(--img-6-time) var(--base-wait-time) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes rolling6-1 {
+    0% {left: 0;}           /* 0s */
+    1.51% {left: -100%;}    /* 0.5s */
+    79.99% {left: -100%;}   
+    83.33% {left: 100%;}    /* 27.5s */
+    84.85% {left: 0;}       /* 28s */
+    100% {left: 0;}         /* 33s */
+}
+@keyframes rolling6-2 {
+    0% {left: 100%;}        /* 0s */
+    1.51% {left: 0;}        /* 0.5s */
+    16.67% {left: 0;}       /* 5.5s */
+    18.82% {left: -100%;}   /* 6s */
+    99.99% {left: -100%;}
+    100% {left: 100%;}      /* 33s */
+}
+@keyframes rolling6-3 {
+    0% {left: 100%;}        /* 0s */
+    16.67% {left: 100%;}    /* 5.5s */
+    18.82% {left: 0;}       /* 6s */
+    33.33% {left: 0;}       /* 11s */
+    34.85% {left: -100%;}   /* 11.5s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 33s */
+}
+@keyframes rolling6-4 {
+    0% {left: 100%;}        /* 0s */
+    33.33% {left: 100%;}    /* 11s */
+    34.85% {left: 0;}       /* 11.5s */
+    50% {left: 0;}          /* 16.5s */
+    51.51% {left: -100%;}   /* 17s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 33s */
+}
+@keyframes rolling6-5 {
+    0% {left: 100%;}        /* 0s */
+    50% {left: 100%;}       /* 16.5s */
+    51.51% {left: 0;}       /* 17s */
+    66.67% {left: 0;}       /* 22s */
+    68.18% {left: -100%;}   /* 22.5s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 33s */
+}
+@keyframes rolling6-6 {
+    0% {left: 100%;}        /* 0s */
+    66.67% {left: 100%;}    /* 22s */
+    68.18% {left: 0;}       /* 22.5s */
+    83.33% {left: 0;}       /* 27.5s */
+    84.85% {left: -100%;}   /* 28s */
+    99.99% {left: -100%}
+    100% {left: 100%;}      /* 33s */
+}
+
+.carousel-container .rolling[class*="{"],
+.carousel-container .rolling a[href*="{$link"] {
+    display: none;
+}
+</style>
+<style>
+/*
+    Backrooms CN Main Page CSS
+    by hoah2333
+*/
+
+#page-title {
+    display: none;
+}
+
+/* 欢迎栏 */
+#page-content .bannerContainer {
+    display: grid;
+    grid-template-areas: 
+        "welcome welcome welcome"
+        "discord faq join";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+}
+#page-content .bannerContainer .welcome {
+    grid-area: welcome;
+    background-color: rgb(var(--gray-monochrome));
+    color: rgb(var(--white-monochrome));
+    font-style: italic;
+    padding: 1rem;
+}
+#page-content .bannerContainer .navigator {
+    display: flex;
+    background-color: rgb(var(--gray-monochrome));
+    border-radius: 0 0 1rem 1rem;
+    height: min-content;
+    margin: 0 0 4rem 0;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#page-content .bannerContainer .navigator:hover,
+#page-content .bannerContainer .navigator:active {
+    margin: 0 0 1rem 0;
+}
+#page-content .bannerContainer .navigator a {
+    padding: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(var(--white-monochrome));
+    font-size: 1.25rem;
+    transition: padding 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: bold;
+}
+#page-content .bannerContainer .navigator a:hover,
+#page-content .bannerContainer .navigator a:active {
+    text-decoration: none;
+    text-decoration-color: transparent;
+    padding: 2rem 0;
+}
+#page-content .bannerContainer .discord {
+    grid-area: discord;
+}
+#page-content .bannerContainer .faq {
+    grid-area: faq;
+}
+#page-content .bannerContainer .join {
+    grid-area: join;
+}
+@media (max-width: 767px) {
+    #page-content .bannerContainer .navigator a {
+        font-size: 1.1rem;
     }
-  </style>
+    #page-content .bannerContainer .navigator a:hover,
+    #page-content .bannerContainer .navigator a:active {
+        padding: 1.5rem 0;
+    }
+    #page-content .bannerContainer .navigator {
+        margin: 0 0 2rem 0
+    }
+    #page-content .bannerContainer .navigator:hover {
+        margin: 0;
+    }
+    #page-content .announceContainer .welcome {
+        font-size: 1.2rem;
+    }
+}
+
+/* 公告栏 */
+/* 为什么要用grid折磨自己呢？ */
+#page-content .announceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid rgb(var(--gray-monochrome));
+    align-content: space-between;
+}
+#page-content .announceContainer .welcome {
+    background-color: rgb(var(--gray-monochrome));
+    color: rgb(var(--white-monochrome));
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 0.75rem;
+}
+#page-content .announceContainer .announcement,
+#page-content .announceContainer .more {
+    background-color: rgb(var(--pale-gray-monochrome));
+    width: 100%;
+    padding: 0.75rem;
+    border-top: 4px solid rgb(var(--gray-monochrome));
+}
+#page-content .announceContainer .more {
+    padding: 0;
+}
+#page-content .announceContainer .more .collapsible-block-folded, 
+#page-content .announceContainer .more .collapsible-block-unfolded .collapsible-block-unfolded-link {
+    display: flex;
+}
+#page-content .announceContainer .more .collapsible-block-folded[style*="block"],
+#page-content .announceContainer .more .collapsible-block-unfolded[style*="block"] .collapsible-block-unfolded-link {
+    display: flex !important;
+}
+#page-content .announceContainer .more .collapsible-block-folded a.collapsible-block-link,
+#page-content .announceContainer .more .collapsible-block-unfolded .collapsible-block-unfolded-link a.collapsible-block-link {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    background: rgba(var(--gray-monochrome), 0.2);
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#page-content .announceContainer .more .collapsible-block-folded a.collapsible-block-link:hover,
+#page-content .announceContainer .more .collapsible-block-unfolded .collapsible-block-unfolded-link a.collapsible-block-link:hover {
+    text-decoration: none;
+    text-decoration-color: transparent;
+    background: rgba(var(--gray-monochrome), 0.4);
+}
+#page-content .announceContainer .more .collapsible-block-unfolded .collapsible-block-unfolded-link a.collapsible-block-link {
+    border-bottom: 4px solid rgb(var(--gray-monochrome));
+}
+#page-content .announceContainer .more .collapsible-block-unfolded .collapsible-block-content {
+    background: rgb(var(--gray-monochrome));
+    color: rgb(var(--white-monochrome));
+    text-align: center;
+}
+#page-content .announceContainer .more .collapsible-block-unfolded .collapsible-block-content p,
+#page-content .recentPages .pageContainer p {
+    margin: 0;
+}
+#page-content .announceContainer .archive {
+    background: rgb(var(--gray-monochrome));
+    color: rgb(var(--white-monochrome));
+    text-align: right;
+    width: 100%;
+}
+#page-content .announceContainer .archive a {
+    padding: 0 1rem;
+    color: rgb(var(--white-monochrome));
+}
+
+/* 最近新增 */
+#page-content .recentPages {
+    display: grid;
+    grid-template-areas: "translation original"
+        "featureLevelO featureTaleO"
+        "featureLevelT featureTaleT";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 1rem;
+}
+@media (max-width: 550px) {
+    #page-content .recentPages {
+        grid-template-areas: "translation" "original"
+            "featureLevelO" "featureTaleO"
+            "featureLevelT" "featureTaleT";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 1rem;
+    }
+}
+#page-content .recentPages .pageContainer {
+    display: grid;
+    grid-template-areas: "title"
+        "page"
+        "recently";
+    grid-template-rows: 1.5rem minmax(auto, 11.81rem) 1.5rem;
+}
+#page-content .recentPages .translation {
+    grid-area: translation;
+}
+#page-content .recentPages .original {
+    grid-area: original;
+}
+#page-content .recentPages .featureLevelO {
+    grid-area: featureLevelO;
+}
+#page-content .recentPages .featureTaleO {
+    grid-area: featureTaleO;
+}
+#page-content .recentPages .featureLevelT {
+    grid-area: featureLevelT;
+}
+#page-content .recentPages .featureTaleT {
+    grid-area: featureTaleT;
+}
+#page-content .recentPages .pageContainer .title {
+    grid-area: title;
+    background: rgb(var(--gray-monochrome));
+    color: rgb(var(--white-monochrome));
+    font-weight: bold;
+    padding: 0 1rem;
+}
+#page-content .recentPages .pageContainer .page {
+    grid-area: page;
+    border: solid rgb(var(--gray-monochrome));
+    border-width: 0 3px 0 4px;
+    padding: 0.5em calc(1rem - 4px);
+    max-height: 12rem;
+    background-color: rgb(var(--pale-gray-monochrome));
+    overflow-y: hidden;
+}
+#page-content .recentPages .pageContainer .page .list-pages-box p {
+    max-height: 12rem;
+    overflow-y: hidden;
+}
+#page-content .recentPages .pageContainer .recently {
+    grid-area: recently;
+    background: rgb(var(--gray-monochrome));
+    text-align: right;
+    padding: 0 1rem;
+}
+#page-content .recentPages .pageContainer .recently a {
+    color: rgb(var(--white-monochrome));
+}
+#page-content .recentPages .featureLevelO .page p,
+#page-content .recentPages .featureTaleO .page p,
+#page-content .recentPages .featureLevelT .page p,
+#page-content .recentPages .featureTaleT .page p {
+    font-size: 0.8rem;
+}
+#page-content .recentPages .featureLevelO .page p:nth-of-type(1),
+#page-content .recentPages .featureTaleO .page p:nth-of-type(1),
+#page-content .recentPages .featureLevelT .page p:nth-of-type(1),
+#page-content .recentPages .featureTaleT .page p:nth-of-type(1) {
+    font-size: 1rem;
+}
+#page-content .recentPages .featureLevelO .page p:nth-of-type(2),
+#page-content .recentPages .featureTaleO .page p:nth-of-type(2),
+#page-content .recentPages .featureLevelT .page p:nth-of-type(2),
+#page-content .recentPages .featureTaleT .page p:nth-of-type(2) {
+    font-size: 0.5rem;
+}
+
+/* Tools */
+#page-content .toolsContainer {
+    display: grid;
+    color: rgb(var(--white-monochrome));
+    grid-gap: 0.5rem;
+}
+#page-content .toolsContainer .tools {
+    display: grid;
+    grid-template-areas: "image text"
+        "link text";
+    grid-template-columns: 5rem auto;
+    justify-items: center;
+    grid-gap: 0.5rem;
+    background-color: rgb(var(--gray-monochrome));
+    padding: 0.75rem;
+}
+#page-content .toolsContainer .tools:nth-of-type(2n) {
+    direction: rtl;
+}
+#page-content .toolsContainer .tools:nth-of-type(2n) * {
+    direction: ltr;
+}
+#page-content .toolsContainer .tools img {
+    grid-area: image;
+}
+#page-content .toolsContainer .tools a {
+    grid-area: link;
+    color: rgb(var(--white-monochrome));
+}
+#page-content .toolsContainer .tools .description {
+    grid-area: text;
+    justify-self: left;
+    pointer-events: none;
+}
+#page-content .toolsContainer .tools br {
+    display: none;
+}
+
+/* International */
+#page-content .international .announcement {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+#page-content .international .announcement img {
+    width: 50px;
+    filter: drop-shadow(0 0 1px rgba(var(--gray-monochrome), 0.8));
+}
+#page-content .international .announcement.es img {
+    align-self: center;
+}
+#page-content .international .announcement h3 {
+    margin-left: 1rem;
+}
+#page-content .international .announcement a {
+    font-size: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#page-content .international .announcement a:hover {
+    background-color: rgba(var(--gray-monochrome), 0.2);
+}
+</style>
+<script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--modules/js/list/ListPagesModule.js"></script>
+<script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--modules/js/misc/NewPageHelperModule.js"></script>
 </head>
+<body id="html-body">
+<div id="skrollr-body">
+<a name="page-top"></a>
 
-<body>
-  <font style="font-size:35px">
-    <p>什么是“层级”?</p>
-  </font>
-  <p>普通层级（Normal
-    Level）构成了后室（Backrooms）的基本框架，这些层级往往在区域大小、危险性和可居住性等方面有着显著差异。一个典型的层级（无论后室中是否存在可以被期待的所谓“典型”的准值）往往是无限大的（尽管“有界限的”层级并非闻所未闻的），并且它们当中存在的事物和景象经常给人一种异样的熟悉感。我们所熟知的物理和自然法则在后室的深处是不可靠的。不过，一些环境更加适宜且稳定的层级可以作为发展中社区的据点，而有一些居民即使在最危险的层级上也能生存。
-  </p>
-<p> 由于通常存在紧急撤退的需求，我们竭尽所能勘察并收录了每个层级的入口和出口。一个需要被牢记的重要提示是：每个层级都存在着间歇性不稳定的倾向。请把这句话刻在你的脑子里，有关任何层级的文档都有可能在毫无警示的情况下被更改。标有
-    [数据缺失] 的层级尚未被充分收录。如果您持有任何关于这些层级的目击者文档，请将您的发现贡献给数据库！
-  </p>
-  <font style="font-size:30px"
-   <p>子层群</p>
-    <p>隐秘层群</p>
-    <p>———————————————</p>
-    <p>普通层群</p>
-    <h1>level 0~level 50</h1>
-</font></style>
- <ul>
-      <li style="font:family:arial;color:red;"><a href="https://cnckgggg.github.io/levels/">level 0</a></li>教学关卡
-    <li style="font:family:arial;color:red;">leavel 1</li>
-           <li style="font:family:arial;color:red;">leavel 2</li>
-                 <li style="font:family:arial;color:red;">leavel 3</li>
-                       <li style="font:family:arial;color:red;">leavel 4</li>
-      <li style="font:family:arial;color:red;">leavel 5</li>
-            <li style="font:family:arial;color:red;">leavel 6</li>
-                  <li style="font:family:arial;color:red;">leavel 7</li>
-                        <li style="font:family:arial;color:red;">leavel 8</li>
-                              <li style="font:family:arial;color:red;">leavel 9</li>
-                                    <li style="font:family:arial;color:red;">leavel 10</li>
-                                          <li style="font:family:arial;color:red;">leavel 11</li>
-                                                <li style="font:family:arial;color:red;">leavel 12</li>
-                                                      <li style="font:family:arial;color:red;">leavel 13</li>
-                                                            <li style="font:family:arial;color:red;">leavel 14</li>
-                                                                  <li style="font:family:arial;color:red;">leavel 15</li>
-   <li style="font:family:arial;color:red;">leavel 16</li>
-            <li style="font:family:arial;color:red;">leavel 17</li>
-                  <li style="font:family:arial;color:red;">leavel 18</li>
-                        <li style="font:family:arial;color:red;">leavel 19</li>
-                              <li style="font:family:arial;color:red;">leavel 20</li>
-                                    <li style="font:family:arial;color:red;">leavel 21</li>
-                                          <li style="font:family:arial;color:red;">leavel 22</li>
-                                                <li style="font:family:arial;color:red;">leavel 23</li>
-                                                      <li style="font:family:arial;color:red;">leavel 24</li>
-                                                            <li style="font:family:arial;color:red;">leavel 25</li>
-   <li style="font:family:arial;color:red;">leavel 26</li>
-                                                                        <li style="font:family:arial;color:red;">leavel 27</li>
-      <li style="font:family:arial;color:red;">leavel 28</li>
-            <li style="font:family:arial;color:red;">leavel 29</li>
-                  <li style="font:family:arial;color:red;">leavel 30</li>
-                        <li style="font:family:arial;color:red;">leavel 31</li>
+
+
+
+
+<div id="container-wrap-wrap">
+    <div id="container-wrap">
+        <div id="container">
+            <div id="header">
+              <h1><a href="/"><span>The Backrooms中文维基</span></a></h1>
+                
+                    <h2><span>你曾经来过这里……</span></h2>
+                
+                
+                <!-- google_ad_section_start(weight=ignore) -->
+                
+                <div id="search-top-box" class="form-search">
+    <form id="search-top-box-form" action="dummy" class="input-append">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="搜索网站" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"/><input class="button btn" type="submit" name="search" value="搜索"/>
+    </form>
+</div>
+                
+                
+                    <div id="top-bar">
                         
-                                  <li style="font:family:arial;color:red;">leavel 32</li>
-                                        <li style="font:family:arial;color:red;">leavel 33</li>
-                                              <li style="font:family:arial;color:red;">leavel 34</li>
-      <li style="font:family:arial;color:red;">leavel 
-35 </li>
-            <li style="font:family:arial;color:red;">leavel 36</li>
-                  <li style="font:family:arial;color:red;">leavel 37</li>
-                        <li style="font:family:arial;color:red;">leavel 38</li>
-                              <li style="font:family:arial;color:red;">leavel 39</li>
-                                    <li style="font:family:arial;color:red;">leavel 40</li>
-                                          <li style="font:family:arial;color:red;">leavel 41</li>
-                                                <li style="font:family:arial;color:red;">leavel 42</li>
-                                                      <li style="font:family:arial;color:red;">leavel 43</li>
-                                                            <li style="font:family:arial;color:red;">leavel 44</li>
-                                                                  <li style="font:family:arial;color:red;">leavel 42</li>
-                                                                   <li style="font:family:arial;color:red;">leavel 46</li>
-                                                                         <li style="font:family:arial;color:red;">leavel 47</li>
-                                                                               <li style="font:family:arial;color:red;">leavel 48</li>
-                                                                                     <li style="font:family:arial;color:red;">leavel 49</li>
-                                                                                           <li style="font:family:arial;color:red;">leavel 50</li>
 
- </ul>
-                                                                                           <h2>level 51~level 100</h2>
-                                                                                                 <ul>
-                                                                                                 <li style="font:family:arial;color:red;">leavel 51</li>
-                                                                                                       <li style="font:family:arial;color:red;">leavel 52</li>
-                                                                                                             <li style="font:family:arial;color:red;">leavel 53</li>
-                                                                                                                   <li style="font:family:arial;color:red;">leavel 54</li>
-                                                                                                                         
-    <li style="font:family:arial;color:red;">leavel 55</li>
-                                                                                                                               <li style="font:family:arial;color:red;">leavel 56</li>
-                                                                                                                                     <li style="font:family:arial;color:red;">leavel 57</li>
-                                                                                                                                           <li style="font:family:arial;color:red;">leavel 58</li>
-                                                                                                                                                 <li style="font:family:arial;color:red;">leavel 59</li>
-                                                                                                                                                       
-                                                              
-<li style="font:family:arial;color:red;">leavel 60</li>
-                                                                                                                                                             <li style="font:family:arial;color:red;">leavel 61</li>
+<div class="top-bar">
+<ul>
+<li>网站
+<ul>
+<li><a href="/top-rated-pages">最高评分的页面</a></li>
+<li><a href="/most-recently-created">最近创建的页面</a></li>
+<li><a href="/top-rated-pages-this-month">本月最高评分的页面</a></li>
+<li><a href="/lowest-rated-pages">最低评分的页面</a></li>
+<li><a href="/random:random-level">随机层级</a></li>
+<li><a href="/random:random-entity">随机实体</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="/normal-levels-i">层级</a></li>
+<li><a href="/sub-layers">子区集</a></li>
+<li><a href="/enigmatic-levels">隐秘层级</a></li>
+<li><a href="/entities">实体</a></li>
+<li><a href="/enigmatic-entities">隐秘实体</a></li>
+<li><a href="/objects">物品</a></li>
+<li><a href="/phenomena">现象</a></li>
+<li><a href="/groups-list">团体</a></li>
+<li><a href="/tales">故事</a></li>
+<li><a href="/poi-s">相关人士</a></li>
+<li><a href="/canons">设定</a></li>
+<li><a href="/joke-entries">搞笑条目</a></li>
+<li><a href="/translations-hub">国际翻译中心</a></li>
+</ul>
+</li>
+<li>原创图书馆
+<ul>
+<li><a href="/normal-levels-cn-i">原创层级</a></li>
+<li><a href="/sub-layers-cn">原创子区集</a></li>
+<li><a href="/enigmatic-levels-cn">原创隐秘层级</a></li>
+<li><a href="/entities-cn">原创实体</a></li>
+<li><a href="/enigmatic-entities-cn">原创隐秘实体</a></li>
+<li><a href="/objects-cn">原创物品</a></li>
+<li><a href="/phenomena-cn">原创现象</a></li>
+<li><a href="/groups-list-cn">原创团体</a></li>
+<li><a href="/tales-cn">原创故事</a></li>
+<li><a href="/poi-s-cn">原创相关人士</a></li>
+<li><a href="/canons-cn">原创设定</a></li>
+<li><a href="/joke-entries-cn">原创搞笑条目</a></li>
+<li><a href="/artwork-hub">原创艺术作品</a></li>
+</ul>
+</li>
+<li>社群
+<ul>
+<li><a href="/forum:start">讨论区</a></li>
+<li><a href="https://discord.gg/jBxwBVQSCk">Discord</a></li>
+<li><a href="http://tieba.baidu.com/wxf/27814845?kw=backrooms%E5%90%8E%E5%AE%A4&amp;fr=sharewise">百度贴吧</a></li>
+<li><a href="/featured-archive">中站精品归档</a></li>
+<li><a href="/contest-archive">中站竞赛归档</a></li>
+<li><a href="/authors-pages-cn">中站作者页</a></li>
+<li><a href="/hub-hub">中心页一览</a></li>
+<li><a href="/meet-the-staff">会见职员</a></li>
+<li><a href="/site-rules">站规</a></li>
+<li><a href="/system:join">加入网站</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="/guide-hub">指导中心</a></li>
+<li><a href="/tag-guide">标签指导</a></li>
+<li><a href="/image-use-policy">图像使用守则</a></li>
+<li><a href="/how-to-write-a-level-cn">如何撰写一篇层级</a></li>
+<li><a href="/wikidot-syntax">Wikidot语法指南</a></li>
+<li><a href="/translation-movement-guide">翻译发布指南</a></li>
+<li><a href="/translation-and-reviewing-rules">翻译校对规范</a></li>
+<li><a href="/criticism-policy">评价守则</a></li>
+<li><a href="/licensing-guide">授权指南</a></li>
+<li><a href="/deletions-guide">删帖指导</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="mobile-top-bar">
+<div class="open-menu">
+<p><a href="#side-bar">≡</a></p>
+</div>
+<ul>
+<li>图书馆
+<ul>
+<li><a href="/normal-levels-i">层级</a></li>
+<li><a href="/sub-layers">子区集</a></li>
+<li><a href="/enigmatic-levels">隐秘层级</a></li>
+<li><a href="/objects">物品</a></li>
+<li><a href="/entities">实体</a></li>
+<li><a href="/enigmatic-entities">隐秘实体</a></li>
+<li><a href="/phenomena">现象</a></li>
+<li><a href="/groups-list">团体</a></li>
+<li><a href="/tales">故事</a></li>
+<li><a href="/poi-s">相关人士</a></li>
+<li><a href="/canons">设定</a></li>
+<li><a href="/joke-entries">搞笑条目</a></li>
+<li><a href="/translations-hub">国际翻译中心</a></li>
+</ul>
+</li>
+<li>原创图书馆
+<ul>
+<li><a href="/normal-levels-cn-i">原创层级</a></li>
+<li><a href="/sub-layers-cn">原创子区集</a></li>
+<li><a href="/enigmatic-levels-cn">原创隐秘层级</a></li>
+<li><a href="/entities-cn">原创实体</a></li>
+<li><a href="/enigmatic-entities-cn">原创隐秘实体</a></li>
+<li><a href="/objects-cn">原创物品</a></li>
+<li><a href="/phenomena-cn">原创现象</a></li>
+<li><a href="/groups-list-cn">原创团体</a></li>
+<li><a href="/tales-cn">原创故事</a></li>
+<li><a href="/poi-s-cn">原创相关人士</a></li>
+<li><a href="/canons-cn">原创设定</a></li>
+<li><a href="/joke-entries-cn">原创搞笑条目</a></li>
+<li><a href="/artwork-hub">原创艺术作品</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="/guide-hub">指导中心</a></li>
+<li><a href="/site-rules">站规</a></li>
+<li><a href="/tag-guide">标签指导</a></li>
+<li><a href="/how-to-write-a-level-cn">如何撰写一篇层级</a></li>
+<li><a href="/translation-movement-guide">翻译发布指南</a></li>
+<li><a href="/translation-and-reviewing-rules">翻译校对规范</a></li>
+<li><a href="/criticism-policy">评价守则</a></li>
+<li><a href="/licensing-guide">授权指南</a></li>
+<li><a href="/image-use-policy">图像使用指导</a></li>
+<li><a href="/deletions-guide">删帖指导</a></li>
+<li><a href="/meet-the-staff">会见职员</a></li>
+</ul>
+</li>
+</ul>
+</div>
 
-     
+                    </div>
+                
+                <div id="login-status"><a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">建立帐号</a> <span>或</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">登入</a> </div>
+                <div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+            </div>
+            
+            <div id="content-wrap">
+                
+                    <div id="side-bar">
+                        
+
+
+                        
+
+<div class="side-block media" style="padding: 10px 0;">
+<div style="text-align: center;"><a href="http://tieba.baidu.com/wxf/27814845?kw=backrooms%E5%90%8E%E5%AE%A4&amp;fr=sharewise"><img src="https://7bye.com/hoah/i/2022/11/10/36rq.svg" alt="The Backrooms吧" width="50px" class="image" /></a><a href="https://backrooms.fandom.com/zh/wiki/Backrooms_Wiki"><img src="https://7bye.com/hoah/i/2022/11/10/2nr8.svg" alt="Backrooms Fandom Wiki" width="50px" class="image" /></a><a href="https://space.bilibili.com/479890976"><img src="https://7bye.com/hoah/i/2022/11/10/lgbq.svg" alt="The Backrooms中文wiki官方哔哩哔哩公众号" width="50px" class="image" /></a><a href="https://discord.gg/backroomscn"><img src="https://7bye.com/hoah/i/2022/11/10/jkxm.svg" alt="Discord" width="50px" class="image" /></a></div>
+</div>
+<div style="clear:both; height: 0px; font-size: 1px"></div>
+<div class="side-block">
+<div class="heading">
+<p><a style="text-decoration: none; color: inherit;" href="http://backrooms-wiki-cn.wikidot.com/start/">主页</a></p>
+</div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p><a style="text-decoration: none; color: inherit;" href="http://backroomssandboxcn.wikidot.com/">中文沙盒站</a></p>
+</div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>图书馆</p>
+</div>
+<div class="menu-item">
+<p><a href="/normal-levels-i">层级</a> | <a href="/entities">实体</a> | <a href="/objects">物品</a> | <a href="/phenomena">现象</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/tales">故事</a> | <a href="/poi-s">相关人士</a> | <a href="/groups-list">团体</a> | <a href="/canons">设定</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/joke-entries">搞笑条目</a> | <a href="/translations-hub">国际翻译中心</a></p>
+</div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>原创图书馆</p>
+</div>
+<div class="menu-item">
+<p><a href="/normal-levels-cn-i">原创层级</a> | <a href="/entities-cn">原创实体</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/objects-cn">原创物品</a> | <a href="/phenomena-cn">原创现象</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/groups-list-cn">原创团体</a> | <a href="/poi-s-cn">原创相关人士</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/canons-cn">原创设定</a> | <a href="/tales-cn">原创故事</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/artwork-hub">原创艺术作品</a> | <a href="/joke-entries-cn">原创搞笑条目</a></p>
+</div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>网站</p>
+</div>
+<div class="menu-item">
+<p><a href="/most-recently-created">最近创建的页面</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/system:recent-changes">最近的更新</a> | <a href="/most-recently-edited">最近的编辑</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/random:random-level">随机层级</a> | <a href="/random:random-level-cn">随机原创层级</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/random:random-entity">随机实体</a> | <a href="/random:random-entity-cn">随机原创实体</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/random:random-object">随机物品</a> | <a href="/random:random-object-cn">随机原创物品</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/random:random-phenomenon">随机现象</a> | <a href="/random:random-phenomenon-cn">随机原创现象</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/old-pages">旧页面中心</a> | <a href="/translation-redirect-archive">重定向翻译</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/top-rated-pages-this-month">本月最高评分页面</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/top-rated-pages">历史最高评分页面</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/lowest-rated-pages">最低评分的页面</a></p>
+</div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>社群</p>
+</div>
+<div class="menu-item">
+<p><a href="/forum:start">讨论区</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/translation-reserve">翻译预定</a> | <a href="/forum:recent-posts">最近的帖子</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/authors-pages">作者页</a> | <a href="/authors-pages-cn">中文网站作者页</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/system:join">加入网站</a></p>
+</div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>管理专用</p>
+</div>
+<div class="menu-item">
+<p><a class="newpage" href="/_admin">后台管理</a></p>
+</div>
+<div class="menu-item">
+<p><a href="http://backrooms-oversight-cn.wikidot.com/">职员站点</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/system:list-all-categories">所有页面</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/system:members">会员一览</a></p>
+</div>
+<div class="menu-item">
+<p><a href="/nav:side">侧栏</a> | <a href="/nav:top">顶栏</a> | <a href="/themes">主题版式</a></p>
+</div>
+</div>
+<div style="clear:both; height: 0px; font-size: 1px"></div>
+<div class="scpnet-interwiki-wrapper interwiki-stylable"><div class="list-pages-box">    <div class="list-pages-item">
+
+
+<p><iframe src="//interwiki.pages.dev/interwikiFrame.html?lang=cn&community=br&type=sidebar&pagename=start" allowtransparency="true" class="html-block-iframe scpnet-interwiki-frame"></iframe></p>
+</div>
+    
+    
+    
+    </div></div>
+<p><iframe src="//interwiki.pages.dev/styleFrame.html?priority=0&type=sidebar&override={$override}&theme=https://interwiki.pages.dev/css/style-br.css&css={$css}" style="display: none"></iframe></p>
+<div style="height: 150px;">
+<p>　</p>
+</div>
+<div style="clear:both; height: 0px; font-size: 1px"></div>
+<a class="close-menu" href="###"><br />
+<img src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/black.png" style="z-index=-1; opacity: 0.3;" alt="black.png" class="image" /><br /></a>
+                        
+
+
+                    </div>
+                
+                
+                <!-- google_ad_section_end -->
+                
+                <div id="main-content">
+                    <div id="action-area-top"></div>
+                    
+                    
+                        <div id="page-title">
+                            主页
+                        </div>
+                    
+
+                    
+
+                    
+
+
+
+                    <div id="page-content">
+                        
+
+<div class="bannerContainer">
+<div class="welcome">“假如你不小心在错误的地方从现实中切出，你最终将坠入后室，这里只有腐臭的潮湿地毯，令人发狂的单调黄色，荧光灯全力运作发出的永无止境的嗡鸣，还有令人深陷其中的大约六亿平方英里随机分割的空荡房间。倘若你听见有什么东西在附近徘徊，愿上帝保佑你吧，因为它一定也听见了你的声音……”</div>
+<div class="navigator discord"><a href="https://discord.gg/backroomscn">Discord</a></div>
+<div class="navigator faq"><a href="/faq">常见问题</a></div>
+<div class="navigator join"><a href="/system:join">加入网站</a></div>
+</div>
+<hr />
+<div class="announceContainer">
+<div class="welcome">欢迎来到The Backrooms中文维基！</div>
+<div class="announcement"><span class="ruby">网站维护协理职员团队<span class="rt">Maintenance and Ancillary Staff Team, MAST</span></span>招募现已结束，恭喜<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/nitry" onclick="WIKIDOT.page.listeners.userInfo(8289254); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8289254&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="Nitry" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8289254)" /></a><a href="http://www.wikidot.com/user:info/nitry" onclick="WIKIDOT.page.listeners.userInfo(8289254); return false;">Nitry</a></span>、<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/npcenter" onclick="WIKIDOT.page.listeners.userInfo(7238896); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=7238896&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="NPCenter" style="background-image:url(http://www.wikidot.com/userkarma.php?u=7238896)" /></a><a href="http://www.wikidot.com/user:info/npcenter" onclick="WIKIDOT.page.listeners.userInfo(7238896); return false;">NPCenter</a></span>、<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/rukatyan" onclick="WIKIDOT.page.listeners.userInfo(8168625); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8168625&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="rukatyan" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8168625)" /></a><a href="http://www.wikidot.com/user:info/rukatyan" onclick="WIKIDOT.page.listeners.userInfo(8168625); return false;">rukatyan</a></span>和<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/yhxoboe" onclick="WIKIDOT.page.listeners.userInfo(8125175); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8125175&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="yhxoboe" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8125175)" /></a><a href="http://www.wikidot.com/user:info/yhxoboe" onclick="WIKIDOT.page.listeners.userInfo(8125175); return false;">yhxoboe</a></span>！关于MAST的工作介绍可以看<a href="/mast-s-workflow">这里</a>。另据<a href="http://backrooms-wiki-cn.wikidot.com/forum/t-15609750/" target="_blank">此通告</a>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/vallerback" onclick="WIKIDOT.page.listeners.userInfo(7878890); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=7878890&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="vallerback" style="background-image:url(http://www.wikidot.com/userkarma.php?u=7878890)" /></a><a href="http://www.wikidot.com/user:info/vallerback" onclick="WIKIDOT.page.listeners.userInfo(7878890); return false;">vallerback</a></span>已升任管理员，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/romand0" onclick="WIKIDOT.page.listeners.userInfo(8108257); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8108257&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="Romand0" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8108257)" /></a><a href="http://www.wikidot.com/user:info/romand0" onclick="WIKIDOT.page.listeners.userInfo(8108257); return false;">Romand0</a></span>和<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/az18121063499" onclick="WIKIDOT.page.listeners.userInfo(8193351); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8193351&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="az18121063499" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8193351)" /></a><a href="http://www.wikidot.com/user:info/az18121063499" onclick="WIKIDOT.page.listeners.userInfo(8193351); return false;">az18121063499</a></span>已升任版主，在此表示祝贺！</div>
+<div class="announcement" style="padding: 0;">
+<div class="carousel-container">
+<div class="rolling img-3"><a href="http://backrooms-wiki-cn.wikidot.com/awareness-month-2023-01"><img src="http://vallerback.wdfiles.com/local--files/art/revive.png" width="100%" alt="revive.png" class="image" /></a><br />
+<a href="http://backrooms-wiki-cn.wikidot.com/valentine-2023"><img src="http://ye-zhi-d.wdfiles.com/local--files/valentine-2023-banner/banner.jpg" width="100%" alt="banner.jpg" class="image" /></a><br />
+<a href="http://backrooms-wiki-cn.wikidot.com/semimonthly-202301b"><img src="http://vallerback.wdfiles.com/local--files/art/banner202301b.png" width="100%" alt="banner202301b.png" class="image" /></a><br />
+<a href="/{$link4}"><img src="http://backrooms-wiki-cn.wdfiles.com/local--resized-images/start/{$img4}/medium.jpg" width="100%" alt="{$img4}" class="image" /></a><br />
+<a href="/{$link5}"><img src="http://backrooms-wiki-cn.wdfiles.com/local--resized-images/start/{$img5}/medium.jpg" width="100%" alt="{$img5}" class="image" /></a><br />
+<a href="/{$link6}"><img src="http://backrooms-wiki-cn.wdfiles.com/local--resized-images/start/{$img6}/medium.jpg" width="100%" alt="{$img6}" class="image" /></a></div>
+</div>
+<div style="display: none;">
+
+<div class="code">
+<div class="hl-main">
+<pre><span class="hl-special">:root</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    --</span><span class="hl-reserved">base-roll-time:</span><span class="hl-code"> </span><span class="hl-number">0.5</span><span class="hl-code">s</span><span class="hl-code">;
+    --</span><span class="hl-reserved">base-wait-time:</span><span class="hl-code"> </span><span class="hl-number">5</span><span class="hl-code">s</span><span class="hl-code">;
+    --</span><span class="hl-reserved">img-2-time:</span><span class="hl-code"> calc(</span><span class="hl-number">2</span><span class="hl-code"> * (var(--base-roll-time) + var(--base-wait-time)))</span><span class="hl-code">;
+    --</span><span class="hl-reserved">img-3-time:</span><span class="hl-code"> calc(</span><span class="hl-number">3</span><span class="hl-code"> * (var(--base-roll-time) + var(--base-wait-time)))</span><span class="hl-code">;
+    --</span><span class="hl-reserved">img-4-time:</span><span class="hl-code"> calc(</span><span class="hl-number">4</span><span class="hl-code"> * (var(--base-roll-time) + var(--base-wait-time)))</span><span class="hl-code">;
+    --</span><span class="hl-reserved">img-5-time:</span><span class="hl-code"> calc(</span><span class="hl-number">5</span><span class="hl-code"> * (var(--base-roll-time) + var(--base-wait-time)))</span><span class="hl-code">;
+    --</span><span class="hl-reserved">img-6-time:</span><span class="hl-code"> calc(</span><span class="hl-number">6</span><span class="hl-code"> * (var(--base-roll-time) + var(--base-wait-time)))</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+ 
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">overflow-y:</span><span class="hl-code"> </span><span class="hl-string">hidden</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+ 
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">display:</span><span class="hl-code"> flex</span><span class="hl-code">;
+    </span><span class="hl-reserved">flex-direction:</span><span class="hl-code"> column</span><span class="hl-code">;
+    </span><span class="hl-reserved">height:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
+    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">relative</span><span class="hl-code">;
+    </span><span class="hl-reserved">overflow:</span><span class="hl-code"> </span><span class="hl-string">hidden</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling</span><span class="hl-code"> </span><span class="hl-identifier">br</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">display:</span><span class="hl-code"> </span><span class="hl-string">none</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(1) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
+    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">relative</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:not</span><span class="hl-code">(</span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(1)) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">absolute</span><span class="hl-code">;
+    </span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
+    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+ 
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-2</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(1) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling2-1 var(--img-2-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-2</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(2) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling2-2 var(--img-2-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling2-1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">           /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    4.54% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    49.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">
+    50% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    54.54% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">         /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling2-2</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    4.54% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    50% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    54.54% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+ 
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-3</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(1) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling3-1 var(--img-3-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-3</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(2) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling3-2 var(--img-3-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-3</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(3) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling3-3 var(--img-3-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling3-1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">           /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    3.03% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    66.65% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   
+    66.66% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    69.69% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 11.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">         /</span><span class="hl-identifier">*</span><span class="hl-code"> 16.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling3-2</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    3.03% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    33.33% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    36.36% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 16.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling3-3</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    33.33% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    36.36% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    66.66% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    69.69% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 11.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 16.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+ 
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-4</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(1) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling4-1 var(--img-4-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-4</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(2) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling4-2 var(--img-4-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-4</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(3) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling4-3 var(--img-4-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-4</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(4) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling4-4 var(--img-4-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling4-1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">           /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    2.27% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    74.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   
+    75% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 17</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    77.27% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 17.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">         /</span><span class="hl-identifier">*</span><span class="hl-code"> 22</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling4-2</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    2.27% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    25% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    27.27% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 22</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling4-3</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    25% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    27.27% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    50% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    52.27% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 11.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 22</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling4-4</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    50% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    52.27% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 11.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    75% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 16.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    77.27% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 17</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 22</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+ 
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-5</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(1) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling5-1 var(--img-5-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-5</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(2) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling5-2 var(--img-5-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-5</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(3) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling5-3 var(--img-5-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-5</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(4) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling5-4 var(--img-5-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-5</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(5) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling5-5 var(--img-5-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling5-1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">           /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    1.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    79.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   
+    80% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 22</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    81.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 22.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">         /</span><span class="hl-identifier">*</span><span class="hl-code"> 27.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling5-2</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    1.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    20% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    21.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 27.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling5-3</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    20% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    21.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    40% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    41.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 11.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 27.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling5-4</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    40% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    41.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 11.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    60% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 16.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    61.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 17</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 27.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling5-5</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    60% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 16.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    61.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 17</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    80% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 22</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    81.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 22.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 27.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+ 
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-6</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(1) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling6-1 var(--img-6-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-6</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(2) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling6-2 var(--img-6-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-6</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(3) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling6-3 var(--img-6-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-6</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(4) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling6-4 var(--img-6-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-6</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(5) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling6-5 var(--img-6-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling.img-6</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:nth-of-type</span><span class="hl-code">(5) </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">animation:</span><span class="hl-code"> rolling6-6 var(--img-6-time) var(--base-wait-time) cubic-bezier(</span><span class="hl-number">0.4</span><span class="hl-code">, </span><span class="hl-number">0</span><span class="hl-code">, </span><span class="hl-number">0.2</span><span class="hl-code">, </span><span class="hl-number">1</span><span class="hl-code">) infinite</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling6-1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">           /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    1.51% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    79.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   
+    83.33% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 27.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    84.85% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 28</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">         /</span><span class="hl-identifier">*</span><span class="hl-code"> 33</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling6-2</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    1.51% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    16.67% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    18.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 33</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling6-3</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    16.67% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 5.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    18.82% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 6</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    33.33% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    34.85% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 11.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 33</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling6-4</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    33.33% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 11</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    34.85% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 11.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    50% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">          /</span><span class="hl-identifier">*</span><span class="hl-code"> 16.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    51.51% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 17</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 33</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling6-5</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    50% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 16.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    51.51% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 17</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    66.67% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 22</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    68.18% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 22.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 33</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+</span><span class="hl-var">@keyframes</span><span class="hl-code"> </span><span class="hl-identifier">rolling6-6</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    0% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">        /</span><span class="hl-identifier">*</span><span class="hl-code"> 0</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    66.67% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">    /</span><span class="hl-identifier">*</span><span class="hl-code"> 22</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    68.18% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 22.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    83.33% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">       /</span><span class="hl-identifier">*</span><span class="hl-code"> 27.5</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    84.85% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">   /</span><span class="hl-identifier">*</span><span class="hl-code"> 28</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+    99.99% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> -</span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-brackets">}</span><span class="hl-code">
+    100% </span><span class="hl-brackets">{</span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;</span><span class="hl-brackets">}</span><span class="hl-code">      /</span><span class="hl-identifier">*</span><span class="hl-code"> 33</span><span class="hl-identifier">s</span><span class="hl-code"> </span><span class="hl-identifier">*</span><span class="hl-code">/
+</span><span class="hl-brackets">}</span><span class="hl-code">
+ 
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling</span><span class="hl-brackets">[</span><span class="hl-var">class</span><span class="hl-code">*=</span><span class="hl-quotes">&quot;</span><span class="hl-string">{</span><span class="hl-quotes">&quot;</span><span class="hl-brackets">]</span><span class="hl-code">,
+</span><span class="hl-identifier">.carousel-container</span><span class="hl-code"> </span><span class="hl-identifier">.rolling</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-brackets">[</span><span class="hl-var">href</span><span class="hl-code">*=</span><span class="hl-quotes">&quot;</span><span class="hl-string">{$link</span><span class="hl-quotes">&quot;</span><span class="hl-brackets">]</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
+    </span><span class="hl-reserved">display:</span><span class="hl-code"> </span><span class="hl-string">none</span><span class="hl-code">;
+</span><span class="hl-brackets">}</span></pre></div>
+</div>
+</div>
+</div>
+<div class="more">
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">想要发布新作品？</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">找这里就对了！</a></div>
+<div class="collapsible-block-content">
+<p>你可以用这一栏来创建通用页面：</p>
+
+<div class="new-page-box" style="text-align: center; margin: 1em 0;">
+	<form action="dummy.html" method="get" onsubmit="WIKIDOT.modules.NewPageHelperModule.listeners.create(event);">
+		<input class="text" name="pageName" type="text" size="30" maxlength="128" style="margin: 1px"/>
+				<input type="submit" class="button" value="创建页面" style="margin: 1px;"/>
+																
+	</form>
+</div>
+
+<p><strong>注意：</strong>在此栏中输入的页面名称必须为英文或拼音，所有中文字符都会被忽略。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<div class="recentPages">
+<div class="pageContainer translation">
+<div class="title">最近新增的翻译页面</div>
+<div class="page"><div class="list-pages-box">    
+
+<p><a href="/level-184">Level 184</a><br />
+<a href="/level-707">Level 707</a><br />
+<a href="/level-712">Level 712</a><br />
+<a href="/level-610">Level 610</a><br />
+<a href="/level-395">Level 395</a><br />
+<a href="/level-994">Level 994</a><br />
+<a href="/old:level-854">Level 854（旧）</a><br />
+<a href="/component:ambiance">氛围音 组件</a></p>
+
+    
+    
+    
+    </div></div>
+<div class="recently"><a href="/most-recently-created-translated">最近新增的翻译页面一览</a></div>
+</div>
+<div class="pageContainer original">
+<div class="title">最近新增的原创页面</div>
+<div class="page"><div class="list-pages-box">    
+
+
+    
+    
+    
+    </div><div class="list-pages-box">    
+
+<p><a href="/theme:infitrade">版式：后室通（后室无限贸易公司）</a><br />
+<a href="/level-c-588-1">Level C-588.1</a><br />
+<a href="/phenomenon-c-1">Phenomenon C-1 - “相由心生”</a><br />
+<a href="/soap-palace">肥皂宫</a><br />
+<a href="/b-f-m-o-employment-services-list">B.F.M.O.雇佣服务列表</a><br />
+<a href="/entity-c-129">Entity C-129 - “报纸人类群体”</a><br />
+<a href="/translation-redirect-archive">重定向翻译页面 中心页</a><br />
+<a href="/pharos">灯塔</a></p>
+
+    
+    
+    
+    </div></div>
+<div class="recently"><a href="/most-recently-created-cn">最近新增的原创页面一览</a></div>
+</div>
+<div class="pageContainer featureLevelO">
+<div class="title">精品原创层级</div>
+<div class="page">
+<p><a href="/c1-chuckler-cryer">在那树荫下</a></p>
+<p>by <span class="printuser"><a href="http://www.wikidot.com/user:info/homesick" onclick="WIKIDOT.page.listeners.userInfo(8321920); return false;">Homesick</a></span>、<span class="printuser"><a href="http://www.wikidot.com/user:info/lovesicker" onclick="WIKIDOT.page.listeners.userInfo(7371268); return false;">Lovesicker</a></span></p>
+<p><em>树海论认为，前厅在理论上存在无穷个，并以平行世界形式存在，彼此之间互不关联。但是，绝大部分前厅都存在有极其之大的相似性，甚至是同样的历史事件与重要人物等，仅在部分节点存在或大或小的分歧。</em></p>
+</div>
+<div class="recently"><a href="/featured-archive">往期精品归档</a></div>
+</div>
+<div class="pageContainer featureTaleO">
+<div class="title">精品原创物品</div>
+<div class="page">
+<p><a href="/object-c-92">Object C-92 - “髑髅”</a></p>
+<p>by <span class="printuser"><a href="http://www.wikidot.com/user:info/the-obsidian-shard" onclick="WIKIDOT.page.listeners.userInfo(5090298); return false;">The Obsidian Shard</a></span></p>
+<p><em>最早关于髑髅的文字记录出现在前厅公元前400年左右的周王室藏书阁中流传下来的典籍残片，亦散现于诸子散文。在其后的数千年中，有关髑髅的记录悉数湮没于历史。</em></p>
+</div>
+<div class="recently"><a href="/featured-archive">往期精品归档</a></div>
+</div>
+<div class="pageContainer featureLevelT">
+<div class="title">精品原创故事</div>
+<div class="page">
+<p><a href="/marks-death">马克之死</a></p>
+<p>by <span class="printuser"><a href="http://www.wikidot.com/user:info/ambersight" onclick="WIKIDOT.page.listeners.userInfo(8134037); return false;">Ambersight</a></span></p>
+<p><em>M.E.G.进了全后室的历史教材，EL3A变成了当地冷清的博物场馆，只有马克的啤酒与垃圾没留下半分痕迹。那一切的谜团、传说、趣闻，终究如同他本人一般，淹没在了历史的长河中。</em></p>
+</div>
+<div class="recently"><a href="/featured-archive">往期精品归档</a></div>
+</div>
+<div class="pageContainer featureTaleT">
+<div class="title">精品翻译故事</div>
+<div class="page">
+<p><a href="/the-snake-crawls-part-1">蛇行系列</a></p>
+<p><span class="printuser"><a href="http://www.wikidot.com/user:info/be-the-worthy" onclick="WIKIDOT.page.listeners.userInfo(8368126); return false;">Be the worthy</a></span> 译</p>
+<p><em>重燃生命的信念，驱逐你心里的阴暗。清除于我们事业中的伪象——拿回你我对未来的畅想。从今晚，我要你忘掉一切的不堪——不再悲伤，不再疯狂；我相信你，永远相信你。</em></p>
+</div>
+<div class="recently"><a href="/featured-archive">往期精品归档</a></div>
+</div>
+</div>
+<hr />
+<div class="announceContainer">
+<div class="welcome">公告</div>
+<div class="announcement"><strong>2023年2月5日</strong><br />
+恭喜<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/vallerback" onclick="WIKIDOT.page.listeners.userInfo(7878890); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=7878890&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="vallerback" style="background-image:url(http://www.wikidot.com/userkarma.php?u=7878890)" /></a><a href="http://www.wikidot.com/user:info/vallerback" onclick="WIKIDOT.page.listeners.userInfo(7878890); return false;">vallerback</a></span>自版主晋升为管理员，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/romand0" onclick="WIKIDOT.page.listeners.userInfo(8108257); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8108257&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="Romand0" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8108257)" /></a><a href="http://www.wikidot.com/user:info/romand0" onclick="WIKIDOT.page.listeners.userInfo(8108257); return false;">Romand0</a></span>和<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/az18121063499" onclick="WIKIDOT.page.listeners.userInfo(8193351); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8193351&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="az18121063499" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8193351)" /></a><a href="http://www.wikidot.com/user:info/az18121063499" onclick="WIKIDOT.page.listeners.userInfo(8193351); return false;">az18121063499</a></span>自MAST职员晋升为版主。更进一步信息请见<a href="http://backrooms-wiki-cn.wikidot.com/forum/t-15609750/" target="_blank">此通告</a>。</div>
+<div class="announcement"><strong>2023年1月30日</strong><br />
+春节系列活动之<a href="http://backrooms-wiki-cn.wikidot.com/2023-spring-festival-invitational-tournament">2023春节邀请赛</a>现已结束。恭喜<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/lovesicker" onclick="WIKIDOT.page.listeners.userInfo(7371268); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=7371268&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="Lovesicker" style="background-image:url(http://www.wikidot.com/userkarma.php?u=7371268)" /></a><a href="http://www.wikidot.com/user:info/lovesicker" onclick="WIKIDOT.page.listeners.userInfo(7371268); return false;">Lovesicker</a></span>&amp;<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/meauzeek-zampona" onclick="WIKIDOT.page.listeners.userInfo(7911814); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=7911814&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="Meauzeek Zampona" style="background-image:url(http://www.wikidot.com/userkarma.php?u=7911814)" /></a><a href="http://www.wikidot.com/user:info/meauzeek-zampona" onclick="WIKIDOT.page.listeners.userInfo(7911814); return false;">Meauzeek Zampona</a></span>创作的<a href="/level-c-452">Structure C-452 - “涛涌依旧”</a>与<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/yunodesu" onclick="WIKIDOT.page.listeners.userInfo(8330293); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8330293&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="YunoDesu" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8330293)" /></a><a href="http://www.wikidot.com/user:info/yunodesu" onclick="WIKIDOT.page.listeners.userInfo(8330293); return false;">YunoDesu</a></span>创作的<a href="http://backrooms-wiki-cn.wikidot.com/unnmei">但命运的轮盘仍将转动，不息转动。</a>分获得邀请主赛与全民竞赛第一名！</div>
+<div class="announcement"><strong>2023年1月28日</strong><br />
+春节系列活动之<a href="http://backrooms-wiki-cn.wikidot.com/2023-spring-festival-crossword-puzzle">十日汉字解谜</a>现已圆满结束，感谢各位的参与。</div>
+<div class="announcement"><strong>2023年1月19日</strong><br />
+2023短文竞赛已结束，恭喜<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/thisuserdoesntexist" onclick="WIKIDOT.page.listeners.userInfo(5551227); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=5551227&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="ThisUserDoesntExist" style="background-image:url(http://www.wikidot.com/userkarma.php?u=5551227)" /></a><a href="http://www.wikidot.com/user:info/thisuserdoesntexist" onclick="WIKIDOT.page.listeners.userInfo(5551227); return false;">ThisUserDoesntExist</a></span>创作的<a href="/wanderer-water-and-the-world">后室，人，希望与水</a>夺得冠军！详情请见<a href="/2023-minimalism-contest">竞赛中心页</a>。</div>
+<div class="archive"><a href="/archived-news">旧新闻归档</a></div>
+</div>
+<hr />
+<div class="toolsContainer">
+<div class="tools"><img src="http://backrooms-wiki.wikidot.com/local--files/start/folder_open.png" alt="folder_open.png" class="image" /><br />
+<a href="/guide-hub">指导中心</a><br />
+<span class="description">指导中心能为你提供创作一篇你自己的“后室”文章的全部工具！</span></div>
+<div class="tools"><img src="http://backrooms-wiki.wikidot.com/local--files/start/sandbox-bucket.png" alt="sandbox-bucket.png" class="image" /><br />
+<a href="http://backroomssandboxcn.wikidot.com/">CN沙盒站</a><br />
+<span class="description">你可以在CN沙盒站尽情调试你的文章和代码，当你创作完毕后，你可以在正式发布前将你文章的沙盒链接发布到草稿评判区供其他成员进行批评和建议。</span></div>
+</div>
+<hr />
+<div class="announceContainer international">
+<div class="welcome">国际站点</div>
+<div class="announcement int"><img src="http://thejotarofiles.wdfiles.com/local--files/main/int-logo.png" alt="int-logo.png" class="image" />
+<h3 id="toc0"><span>国际翻译中心</span></h3>
+<a href="http://backrooms-int.wikidot.com/">http://backrooms-int.wikidot.com/</a></div>
+<div class="announcement ru"><img src="http://backrooms-uli.wdfiles.com/local--files/start/ru-logo" alt="ru-logo" class="image" />
+<h3 id="toc1"><span>俄语分部</span></h3>
+<a href="http://ru-backrooms-wiki.wikidot.com/">http://ru-backrooms-wiki.wikidot.com/</a></div>
+<div class="announcement fr"><img src="http://backrooms-uli.wdfiles.com/local--files/start/fr-logo" alt="fr-logo" class="image" />
+<h3 id="toc2"><span>法语分部</span></h3>
+<a href="http://fr-backrooms-wiki.wikidot.com/">http://fr-backrooms-wiki.wikidot.com/</a></div>
+<div class="announcement ptbr"><img src="http://backrooms-uli.wdfiles.com/local--files/start/pt-br-logo" alt="pt-br-logo" class="image" />
+<h3 id="toc3"><span>葡萄牙语分部</span></h3>
+<a href="http://pt-br-backrooms-wiki.wikidot.com/">http://pt-br-backrooms-wiki.wikidot.com/</a></div>
+<div class="announcement vn"><img src="http://backrooms-uli.wdfiles.com/local--files/start/vn-logo" alt="vn-logo" class="image" />
+<h3 id="toc4"><span>越南语分部</span></h3>
+<a href="http://backrooms-vn.wikidot.com/">http://backrooms-vn.wikidot.com/</a></div>
+<div class="announcement es"><img src="http://backrooms-wiki-cn.wikidot.com/local--files/start/es_logo.png" alt="es_logo.png" class="image" />
+<h3 id="toc5"><span>西班牙语分部</span></h3>
+<a href="http://es-backrooms-wiki.wikidot.com/">http://es-backrooms-wiki.wikidot.com/</a></div>
+<div class="announcement pl"><img src="http://pl-backrooms-wiki.wikidot.com/local--files/start/backrooms-pl-bgtr.png" alt="backrooms-pl-bgtr.png" class="image" />
+<h3 id="toc6"><span>波兰语分部</span></h3>
+<a href="http://pl-backrooms-wiki.wikidot.com/">http://pl-backrooms-wiki.wikidot.com/</a></div>
+<div class="announcement uli"><img src="https://khoaigarret.wdfiles.com/local--files/backrooms-int-prj/UN-C.png" alt="UN-C.png" class="image" />
+<h3 id="toc7"><span>多语言孵化器</span></h3>
+<a href="http://backrooms-uli.wikidot.com/">http://backrooms-uli.wikidot.com/</a></div>
+</div>
+<hr />
+<div class="image-container aligncenter"><img src="http://backrooms-wiki-cn.wikidot.com/local--files/start/cn_logo.svg" style="width:100px;filter:brightness(50%)" alt="cn_logo.svg" class="image" /></div>
+<div style="text-align: center;">
+<p>中文维基logo由<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/kcorena" onclick="WIKIDOT.page.listeners.userInfo(3396110); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3396110&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="Kcorena" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3396110)" /></a><a href="http://www.wikidot.com/user:info/kcorena" onclick="WIKIDOT.page.listeners.userInfo(3396110); return false;">Kcorena</a></span>基于<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/estrellayoshte" onclick="WIKIDOT.page.listeners.userInfo(3781861); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3781861&amp;amp;size=small&amp;amp;timestamp=1676103812" alt="EstrellaYoshte" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3781861)" /></a><a href="http://www.wikidot.com/user:info/estrellayoshte" onclick="WIKIDOT.page.listeners.userInfo(3781861); return false;">EstrellaYoshte</a></span>的设计修改而来，适用知识共享-版权归属-相同方式共享 3.0 授权协议（<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh">CC-BY-SA</a>）。</p>
+</div>
+
+
+
+                    </div>
+
+                    
+
+
+                    
+
+
+
+                    
+                        <div class="page-tags">
+                            <span>
+                                <a href="/system:page-tags/tag/%E5%8E%9F%E5%88%9B#pages">原创</a><a href="/system:page-tags/tag/%E6%80%BB%E8%A7%88#pages">总览</a><a href="/system:page-tags/tag/%E7%AE%A1%E7%90%86#pages">管理</a>
+                            </span>
+                        </div>
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                        <div id="page-options-container">
+                            <div id="page-info">页面版本: 336, 最后编辑于: <span class="odate time_1676008918 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20%E5%89%8D%29">10 Feb 2023 06:01</span></div>
+            <div id="page-options-bottom"  class="page-options-bottom">
+            <a href="javascript:;" class="btn btn-default" id="edit-button">编辑</a>
+<a href="javascript:;" class="btn btn-default" id="pagerate-button">评分 (<span id="prw54355">+311</span>)</a>
+<a href="javascript:;" class="btn btn-default" id="tags-button">标签</a>
+<a href="/forum/t-14165930/start" class="btn btn-default" id="discuss-button">讨论 (256)</a>
+<a href="javascript:;" class="btn btn-default" id="history-button">历史记录</a>
+<a href="javascript:;" class="btn btn-default" id="files-button">附件</a>
+<a href="javascript:;" class="btn btn-default" id="print-button">打印</a>
+<a href="javascript:;" class="btn btn-default" id="site-tools-button">网站工具</a>
+<a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;选项</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none">
+    <a href="javascript:;" class="btn btn-default" id="edit-sections-button">编辑段落</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-append-button">附加</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-meta-button">编辑元信息</a>
+    <a href="javascript:;" class="btn btn-default" id="watchers-button">关注者</a> 
+    <a href="javascript:;" class="btn btn-default" id="backlinks-button">反向链接</a> 
+    <a href="javascript:;" class="btn btn-default" id="view-source-button">页面源代码</a> 
+    <a href="javascript:;" class="btn btn-default" id="parent-page-button">父页面</a> 
+    <a href="javascript:;" class="btn btn-default" id="page-block-button">锁定页面</a>    
+    <a href="javascript:;" class="btn btn-default" id="rename-move-button">重新命名</a> 
+    <a href="javascript:;" class="btn btn-default" id="delete-button">删除</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+
+                        </div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer" style="display: block; visibility: visible;">
+                <div class="options" style="display: block; visibility: visible;">
+    <a href="http://www.wikidot.com/doc" id="wikidot-help-button">说明</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">服务条款</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">隐私</a>
+    &nbsp;|
+    <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">报告错误</a>
+    &nbsp;|
+    <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">标记为令人反感的</a>
+</div>
+基于 <a href="http://www.wikidot.com">Wikidot.com</a> 
+            </div>
+            
+                <div id="license-area" class="license-area">
+                    除非特别注明，本页内容采用以下授权方式： <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>
+                </div>
+            
+            
+            
+
+
+
+            <div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+            
+            
+            
+            
+                
+            
+        </div>
+        
+    </div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+</div>
+
+
+
+
+</div>
+<div id="dummy-ondomready-block" style="display: none;" ></div>
+    <!-- Google Analytics load -->
+    <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script>
+    <noscript>
+        <img src="http://pixel.quantserve.com/pixel/p-edL3gsnUjJzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    </noscript>
+
+
+
+
+<div id="page-options-bottom-tips" style="display: none;">
+    <div id="edit-button-hovertip">
+        请点此编辑本页内容。    </div>
+</div>
+<div id="page-options-bottom-2-tips"  style="display: none;">
+    <div id="edit-sections-button-hovertip">
+        单击此处切换页面各部分的编辑按钮（如果可能）。 在标题边会显示“编辑”链接。    </div>
+    <div id="edit-append-button-hovertip">
+        在不编辑整个页面源代码的情况下添加内容。    </div>
+    <div id="history-button-hovertip">
+        看看本页过去是如何沿革的。    </div>
+    <div id="discuss-button-hovertip">
+        若您想要讨论本页内容，这是最简单的方法。    </div>
+    <div id="files-button-hovertip">
+        检视并管理本页附件。    </div>
+    <div id="site-tools-button-hovertip">
+        管理网站的实用工具。    </div>
+    <div id="backlinks-button-hovertip">
+        检视链接至本页或引用本页的页面。    </div>
+    <div id="rename-move-button-hovertip">
+        变更页面名称（及 URL 地址，或许会影响分类）。    </div>
+    <div id="view-source-button-hovertip">
+        在不编辑的情形下检视维基源代码。    </div>
+    <div id="parent-page-button-hovertip">  
+        检视/ 设定父页面（用以建立浏览足迹与结构化​​配置）。    </div>
+            <div id="abuse-report-button-hovertip">
+            向管理员举报本页有令人反感的内容。        </div>
+        <div id="bug-report-button-hovertip">
+            事情不如预期？看看您可以做些什么。        </div>
+        <div id="wikidot-help-button-hovertip">
+            一般的 Wikidot.com 文件与说明。        </div>
+        <div id="wikidot-tos-button-hovertip">
+            Wikidot.com 服务条款 - 您可以做的事，您不该做的事之类的。        </div>
+        <div id="wikidot-privacy-button-hovertip">
+            Wikidot.com 隐私政策。          
+        </div>
+    </div>
 </body>
-
 </html>
-
-
